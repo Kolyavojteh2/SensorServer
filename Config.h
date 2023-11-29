@@ -1,0 +1,10 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define TCP_SERVER_DEFAULT_PORT (5300)
+
+#ifndef MAC_ADDRESS_LENGTH
+#define MAC_ADDRESS_LENGTH (6)
+#endif // MAC_ADDRESS_LENGTH
+
+#endif // CONFIG_H
